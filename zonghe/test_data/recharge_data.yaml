@@ -1,0 +1,5 @@
+#充值数据
+- rechardata: {"mobilephone":"18066668888","amount":"500"}
+  expect: {"status":"1","code":"10001","data":{},"msg":"成功"}
+- rechardata: {"mobilephone":"18066668888","amount":"500"}
+  expect: {"status":"0","code":"10001","data":{},"msg":"成功"}
